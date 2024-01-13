@@ -1,0 +1,215 @@
+section{
+
+    color:#18d184;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+header{
+
+    
+}
+.pc-nav{
+    display:inline-block;
+    margin-left:150px;
+}
+.menu{
+
+    display:none;
+    
+}
+.pc-menu{
+    margin-left: 35px;
+}
+p1{
+    font-size:15px;
+    font-family: 'Domine', serif;
+    
+}
+.toggle-menu{
+    display:none;
+    
+}
+.toggle-menu.opened{
+    dsiplay:block;
+    
+}
+.username{
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+#title
+{
+   color:white;
+   font-family: 'Lato', sans-serif;
+   font-size: 50px;
+    display:block;
+    overflow:hidden;
+}
+.s{
+     position:fixed;
+     width:100%;
+}
+.body
+{ background-color:#272c2c;
+
+
+}
+a
+{
+    color:white;
+    font-size:15px;   
+
+
+}
+subheading{color:#29bd9a;
+    font-family: 'Lato', sans-serif;
+    
+    font-size:30px;
+    border-radius:5px;
+    
+}
+a.hover
+{text-shadow: 40px 3px 2px white;}
+.write_up{
+       color:white;
+       font-family: 'Domine', sans-serif;
+        font-size:35px;
+        background-color:#29bd9a;
+        border-radius: 15px;
+        padding: 5px;
+        margin-left:20px;
+        cursor:default;
+}
+.skillholder{}
+.skill{
+    background-color: #29bd9a;
+    border-radius:5px;
+    padding:4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:default;
+}
+.holder{
+    width: 300px;
+    border: 15px #29bd9a;
+    background-color:white;
+    border-radius:15px;
+    padding: 50px;
+    margin: 20px;
+    cursor:pointer;
+}
+.social{
+    color:#29bd9a;
+    width:20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.social1{margin: 0px 0px;}
+.social:hover{
+    color: #0077b5;
+    transition: color 0.3s;
+}
+ion-icon {
+    font-size: 32px;
+  }
+.holder:hover{box-shadow: 25px 3px #67b89d; transition: box-shadow 0.2s;}
+p{text-align:left;}
+.wu1{
+    color:white;
+    font-family: 'Domine', serif;
+    font-size:20px;
+    line-height: 40px;
+    margin-left:20px;
+}
+.wu2{
+    color:white;
+    font-family: 'Domine', serif;
+    font-size:20px;
+    line-height: 40px;
+    margin-left:1000px;
+}
+.wu3{
+    color:white;
+    font-family: 'Domine', serif;
+    font-size:20px;
+    line-height: 40px;
+    margin-left:1110px;
+}
+.wu4{
+    color:white;
+    font-family: 'Domine', serif;
+    font-size:20px;
+    line-height: 40px;
+    margin-left:1030px;
+}
+.footer{
+    color:white;
+    font-family: 'Domine', serif;
+    font-size:15px;
+    line-height: 40px;
+
+}
+.internal_titles
+{   color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    font-size:45px;
+    text-shadow: 4px 3px 2px #29bd9a;
+}
+@media all and(min-width:1001px){
+    div a:after{
+        color:white;
+    font-size:15px;   
+
+    }
+}
+@media all and (max-width:1000px) and (min-width:700px){
+    div a{
+        padding:2px;
+    }
+}
+@media all and (max-width:1454px) and (min-width:1000px){
+    .pc-menu{
+        display:none;
+    }
+    .menu{
+        display: inline;
+        margin-left:740px;
+        cursor:pointer;
+    }
+}
+@media all and (max-width:1380px) and (min-width:1000px){
+    .pc-menu{
+        display:none;
+    }
+    .menu{
+        display: inline;
+        margin-left:680px;
+        cursor:pointer;
+    }
+}
+@media all and (max-width:1323px) and (min-width:1000px){
+    .pc-menu{
+        display:none;
+    }
+    .menu{
+        display: inline;
+        margin-left:600px;
+        cursor:pointer;
+    }
+    
+}
+.x{font-family: 'Poppins', serif;
+color:white;
+margin-left:30px;
+}
+.x1{font-family: 'Poppins', serif;
+    color:white;
+    font-size: 15px;
+    margin-left:30px;
+    }
