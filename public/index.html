@@ -21,20 +21,36 @@
         else
         {nav.classList.remove("s");}
        }
+       var omb=document.getElementByClassName("menu");
+      var menu=document.getElementByClassName("toggle-menu");
+      omb.addEventListener("click", function(e){
+      e.preventDefault();
+      menu.classList.contains("opened");
 
+      },false);
 </script>
     <header>
     <div id="title">
-        <span >Maurya Samanta</span><br>
+        
+      <span >Maurya Samanta</span><br>
         <subheading>PERSONAL PORTFOLIO</subheading>
-        &emsp;&emsp;&emsp;<a href="#about">ABOUT ME</a>&emsp;
-        <a href="#ed">EDUCATION</a>&emsp;
-        <a href="#sa">SCHOLASTIC ACHIEVEMENTS</a>&emsp;
-        <a href="#pro">PROJECTS</a>&emsp;
-        <a href="#cert">CERTIFICATIONS</a>&emsp;
-        <a href="#skill">SKILLS</a>&emsp;
-        
-        
+        <nav class="pc-nav">
+         <a  class="pc-menu" href="#about">ABOUT ME</a>
+        <a class="pc-menu" href="#ed">EDUCATION</a>
+        <a class="pc-menu"  href="#sa">SCHOLASTIC ACHIEVEMENTS</a>
+        <a class="pc-menu"  href="#pro">PROJECTS</a>
+        <a class="pc-menu"  href="#cert">CERTIFICATIONS</a>
+        <a class="pc-menu"  href="#skill">SKILLS</a>
+        </nav>
+        <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+        <div class="toggle-menu">
+        <a class="mini-menu" href="#about">ABOUT ME</a>
+        <a class="mini-menu" href="#ed">EDUCATION</a>
+        <a class="mini-menu" href="#sa">SCHOLASTIC ACHIEVEMENTS</a>
+        <a class="mini-menu" href="#pro">PROJECTS</a>
+        <a class="mini-menu" href="#cert">CERTIFICATIONS</a>
+        <a class="mini-menu" href="#skill">SKILLS</a>
+        </div>
     </div>
     <br><br>
     </header>
@@ -49,83 +65,99 @@
     .column{flex:1.00%;
     }
     </style>
-    &emsp;&emsp;&emsp;&emsp;&emsp;<span class="write_up" id="about">Hi, I am Maurya!</span> <br><br>
+    <span class="write_up" id="about">Hi, I am Maurya</span> <br><br>
     
-    &emsp;&emsp;&emsp;&emsp;&emsp;<a class="social" href="https://www.linkedin.com/in/maurya-samanta-profile" target="_blank"><ion-icon name="logo-linkedin" width="20"></ion-icon></a>
+    <a class="social" href="https://www.linkedin.com/in/maurya-samanta-262329287" target="_blank"><ion-icon name="logo-linkedin" width="20"></ion-icon></a>
   
        <a class="social" href="https://github.com/MauryaSamanta" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
   
-       &emsp;&emsp;&emsp;<p class="wu1">&emsp;&emsp;&emsp;I’m a First Year Undergraduate from Kolkata, India.
+       <p class="wu1">Second Year Production Engineering Undergraduate from Kolkata, India
 
-        <br>&emsp;&emsp;&emsp;Currently 18 years old, my primary interests include coding in Java and HTML.<br>&emsp;&emsp;&emsp; Loving the process of the App Development as much as the outcome,
+        <br>Full Stack Web Developer and Market Research Enthusiast
        
-        I like to be creative <br>&emsp;&emsp;&emsp;and like to apply my knowledge in this field.
+         
+        
        
-       <br>&emsp;&emsp;&emsp;Apart from this, I have a deep interest in the field of Economics<br>&emsp;&emsp;&emsp; and want to explore  the world of Finance, too.
        
-       <br>&emsp;&emsp;&emsp;I am keen on learning new things and gaining new experiences.
        </p>
        <br>
        <hr>
      <div class="internal_titles" id="ed">
         EDUCATION
      </div> 
-     <span class="wu1">&emsp;&emsp;&emsp;1. Bachelor of Engineering(B.E.)</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Jadavpur University</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-     <span class="wu1">2022-2026</span><br>
-     <span class="wu1">&emsp;&emsp;&emsp;2. Bachelor of Science(B.S.) in Data Science and Programming</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;IIT Madras</span>&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-     <span class="wu1">2022-2026</span><br>
-     <span class="wu1">&emsp;&emsp;&emsp;3. Senior Secondary Education</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Salt Lake School(English Medium)</span>&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-     <span class="wu1">2020-2022</span><br>
-     <span class="wu1">&emsp;&emsp;&emsp;4. High School Education</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Salt Lake School(English Medium)</span>&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-     <span class="wu1">2007-2020</span><br><br>
+     <span class="wu1">1. Bachelor of Production Engineering</span><br>
+     <span class="x">Jadavpur University</span>
+     
+     <span class="wu3">2022-2026</span><br>
+     
+     <span class="x1"> SGPA: 7.80/10</span><BR>
+     <span class="wu1">3. Senior Secondary Education</span><br>
+     <span class="x">Salt Lake School(English Medium)</span>&nbsp;&nbsp;
+     <span class="wu2">2020-2022</span><br>
+     <span class="wu1">4. High School Education</span><br>
+     <span class="x">Salt Lake School(English Medium)</span>&nbsp;&nbsp;
+     <span class="wu2">2007-2020</span><br><br>
      <hr>
      <div class="internal_titles" id="sa">
        SCHOLASTIC ACHIEVEMENTS
      </div> 
-     <span class="wu1">&emsp;&emsp;&emsp;1. Joint Entrance Examination(Main) 2022</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Secured 98 Percentile</span><br>
-     <span class="wu1">&emsp;&emsp;&emsp;2. West Bengal Joint Entrance Examination 2022</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Secured 97.44 Percentile</span><br>
-     <span class="wu1">&emsp;&emsp;&emsp;3. Indian School Certificate Examination 2022(Class XII Board Exam)</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Secured 96.00% in aggregate</span>
+     <span class="wu1">1. Joint Entrance Examination(Main) 2022</span><br>
+     <span class="x">Secured 98 Percentile</span><br>
+     <span class="wu1">2. West Bengal Joint Entrance Examination 2022</span><br>
+     <span class="x">Secured 97.44 Percentile</span><br>
+     <span class="wu1">3. Indian School Certificate Examination 2022(Class XII Board Exam)</span><br>
+     <span class="x">Secured 96.00% in aggregate</span>
      <br>
-     <span class="wu1">&emsp;&emsp;&emsp;4. Indian Council of Secondary Education Examination 2020(Class X Board Exam)</span><br>
-     <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Secured 94.60% in aggregate</span><br><br>
+     <span class="wu1">4. Indian Council of Secondary Education Examination 2020(Class X Board Exam)</span><br>
+     <span class="x">Secured 94.60% in aggregate</span><br><br>
      <hr>
      <div class="internal_titles" id="pro">
         PROJECTS
       </div> 
-      <center><div class="holder"><p1>MarkATT-Student Management System</p1><img src="C:\Users\DOLA GANGULY\OneDrive\Desktop\SS.png" ><br>
-       <br><br><a href="#">LIVE LINK</a>
+      <center><div class="holder"><p1>MarkATT-Student Management System</p1><img src="https://drive.google.com/file/d/12b03MnX3t2w4zhtzD2wHboNFD4Y6-5QX/view?usp=sharing" ><br>
+       <br><br><a href="https://markatt.onrender.com/">LIVE LINK</a>
     </div></center><br><br>
     <hr>
     <div class="internal_titles" id="cert">
       CERTIFICATIONS
     </div> 
-    <span class="wu1">&emsp;&emsp;&emsp;1. JAVA(BASIC)</span><a class="social" href="https://www.hackerrank.com/certificates/73eca79cfd76" target="_blank"><ion-icon name="caret-forward-outline"></ion-icon></a><br>
-    <span class="x">&emsp;&emsp;&emsp;&emsp;&emsp;Issued by HackerRank</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-    <span class="wu1">September 2022</span><br><br><br>
+    <span class="wu1">1. BCG Strategy Consulting Job Simulation</span><a class="social" href="https://drive.google.com/file/d/1RqPhIxQcKseP3vqKHVbCZRnGt-HO1s0s/view?usp=drive_link" target="_blank"><ion-icon name="caret-forward-outline"></ion-icon></a><br>
+    <span class="x">Issued by Forage</span>
+    <span class="wu4">January 2024</span><br><br><br>
+    <span class="wu1">2. JAVA(BASIC)</span><a class="social" href="https://www.hackerrank.com/certificates/73eca79cfd76" target="_blank"><ion-icon name="caret-forward-outline"></ion-icon></a><br>
+    <span class="x">Issued by HackerRank</span>
+    <span class="wu2">September 2022</span><br><br><br>
     <hr>
     <div class="internal_titles" id="skill">
       SKILLS<br>
     </div><br>
+    <center><span class="wu1">Programming Langauges</span><br></center>
+    </div>
     <center> 
     <div >
-        <span class="skill">JAVA</span>&nbsp;<span class="skill">HTML</span>&nbsp;<span class="skill">CSS</span><br><br>
-        <span class="skill">JAVASCRIPT</span>&nbsp;<span class="skill">MONGODB</span><br><br>
-        <span class="skill">MYSQL</span>&nbsp;<span class="skill">COMMUNICATION</span><br><br>
-        <span class="skill">OBJECT ORIENTED PROGRAMMING</span>
-
+        <span class="skill">Java</span>&nbsp;<span class="skill">C</span>&nbsp;<span class="skill">JavaScript</span><br>
+        
     </div>
+    <center><span class="wu1">Frameworks</span><br></center>
+    <div >
+      <span class="skill">HTML</span>&nbsp;<span class="skill">CSS</span>&nbsp;<span class="skill">Node.JS</span><br><br><span class="skill">Express.JS</span><br>
+      
+  </div>
+  <center><span class="wu1">Database</span><br></center>
+  <div >
+    <span class="skill">MySQL</span>&nbsp;<span class="skill">MongoDB</span><br>
+    
+</div>
+<center><span class="wu1">Other</span><br></center>
+<div >
+  <span class="skill">Market Research</span>&nbsp;<span class="skill">Strategy Consulting</span>&nbsp;<span class="skill">MS Excel</span><br><br><span class="skill">Data Analysis</span>&nbsp;<span class="skill">Financial Modelling</span>
+  
+</div>
     </center>
     <br><br>
     <hr>
     <footer>
-            <span class="footer">Created By Maurya Samanta</span>
+            <span class="footer">Developed and Maintained By Maurya Samanta</span>
             <br>
             <span class ="footer">2022</span>
 
